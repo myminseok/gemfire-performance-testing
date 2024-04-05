@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: cloud-native-spring
+  profiles.active: dev
+
+server.port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+
+cook.special: "Kim Chi in cloud-native-spring app"
